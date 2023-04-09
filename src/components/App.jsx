@@ -1,8 +1,10 @@
 import React from "react";
 import doctor_info from "../doctor_info";
 import DoctorModel from "./DoctorModel";
+import colors from "../color.json";
 
 function Doctor(doctor_info) {
+  console.log(colors, "json");
   return (
     <DoctorModel
       id={doctor_info.id}
@@ -13,6 +15,7 @@ function Doctor(doctor_info) {
       qualification={doctor_info.qualification}
       experience={doctor_info.experience}
       description={doctor_info.description}
+      color={doctor_info.color}
     />
   );
 }
