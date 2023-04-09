@@ -1,9 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: #c0d2d4;
-  color: #555;
 }
 
 h1 {
@@ -16,35 +13,24 @@ h1 {
 }
 
 h1 span {
-  padding: 5px 15px;
-  background: #2ec2b0;
+  padding: 7px 20px;
+  background: #030c46;
 }
 
 .dictionary {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 4rem auto;
-  max-width: 90%;
+  /* max-width: 90%; */
 }
 
-.dictionary > .term {
-  text-align: center;
-  max-width: 20rem;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  border-radius: 3px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  transition: all 100ms ease-in-out;
-}
-
-.dictionary > .term > dt {
-  margin-bottom: 1rem;
+.container {
+  /* background-color: rgb(233, 243, 246); */
+  padding: 5px 0 0 0;
 }
 
 dt {
-  color: #2ec2b0;
+  color: #030c46;
   line-height: 1;
 }
 
@@ -56,7 +42,6 @@ dt span {
 .layout {
   margin: 0 auto 20px;
   display: block;
-  /* font-size: 400%; */
 }
 
 dd {
@@ -73,17 +58,17 @@ dd dt {
 
 dd dl {
   font-size: 90%;
-  margin: 1rem auto 0 auto;
   letter-spacing: 0.33px;
   max-width: 15rem;
-}
-
-dd dl .term {
-  margin-bottom: 1rem;
 }
 
 /* for image */
 .Image {
   height: 200px;
   width: 200px;
+  border-radius: 1rem;
+}
+
+.Total-content {
+  margin: 4rem 19rem auto;
 }
