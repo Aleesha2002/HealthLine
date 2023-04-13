@@ -1,0 +1,74 @@
+body {
+  font-weight: 400;
+  line-height: 1.666;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+h1 span {
+  padding: 7px 20px;
+  background: #030c46;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* max-width: 90%; */
+}
+
+.container {
+  /* background-color: rgb(233, 243, 246); */
+  padding: 5px 0 0 0;
+}
+
+dt {
+  color: #030c46;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.layout {
+  margin: 0 auto 20px;
+  display: block;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+/* for image */
+.Image {
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.Total-content {
+  margin: 4rem 19rem auto;
+}
