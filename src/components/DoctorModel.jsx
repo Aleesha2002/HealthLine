@@ -1,5 +1,5 @@
 import React from "react";
-import color from "../color.json";
+import "./styles.css";
 
 function DoctorModel(props) {
   return (
