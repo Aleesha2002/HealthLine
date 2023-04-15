@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./styles.css";
 
@@ -19,15 +20,15 @@ function DoctorModel(props) {
         </div>
 
         <div className="Desc-file">
-          <dt>
+          <h2>
             <span className="layout" role="img">
               {props.name}
             </span>
-          </dt>
-          <dd>{props.department}</dd>
-          <dd>{props.qualification}</dd>
-          <dd>{props.experience}</dd>
-          <dd>{props.description}</dd>
+          </h2>
+          <h3 class="depart">{props.department}</h3>
+          <h3>{props.qualification}</h3>
+          <h3>{props.experience}</h3>
+          <h3>{props.description}</h3>
         </div>
       </div>
     </div>
