@@ -29,12 +29,12 @@ h1 span {
   padding: 5px 0 0 0;
 }
 
-dt {
+h2 {
   color: #030c46;
   line-height: 1;
 }
 
-dt span {
+h2 span {
   font-size: 200%;
   font-weight: 900;
 }
@@ -44,22 +44,28 @@ dt span {
   display: block;
 }
 
-dd {
+h3 {
   font-size: 92.5%;
   margin-left: 0;
 }
 
-dd dt {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
+h3 h2 {
   font-weight: 600;
   font-size: inherit;
 }
 
-dd dl {
-  font-size: 90%;
+h3 {
+  font-weight: 700;
+  font-size: 110%;
   letter-spacing: 0.33px;
-  max-width: 15rem;
+  max-width: 20rem;
+  margin-top: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.depart {
+  font-size: x-large;
 }
 
 /* for image */
