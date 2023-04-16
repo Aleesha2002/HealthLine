@@ -29,12 +29,12 @@ h1 span {
   padding: 5px 0 0 0;
 }
 
-h2 {
+.h2_class {
   color: #030c46;
   line-height: 1;
 }
 
-h2 span {
+.h2_class span {
   font-size: 200%;
   font-weight: 900;
 }
@@ -44,17 +44,17 @@ h2 span {
   display: block;
 }
 
-h3 {
+.h3_class {
   font-size: 92.5%;
   margin-left: 0;
 }
 
-h3 h2 {
+.h3_class .h2_class {
   font-weight: 600;
   font-size: inherit;
 }
 
-h3 {
+.h3_class {
   font-weight: 700;
   font-size: 110%;
   letter-spacing: 0.33px;
