@@ -1,7 +1,9 @@
+
 import React from "react";
 import doctor_info from "../doctor_info";
 import DoctorModel from "./DoctorModel";
 import colors from "../color.json";
+import "./styles.css";
 
 function Doctor(doctor_info) {
   console.log(colors, "json");
@@ -23,8 +25,8 @@ function Doctor(doctor_info) {
 function App() {
   return (
     <div>
-      <h1>
-        <span>Doctor</span>
+      <h1 className="first">
+        <span className="second">Doctor</span>
       </h1>
       <dl className="dictionary">{doctor_info.map(Doctor)}</dl>
     </div>
