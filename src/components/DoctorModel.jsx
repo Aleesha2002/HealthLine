@@ -1,10 +1,10 @@
-
 import React from "react";
+import { ReactDOM } from "react-dom";
 import "./styles.css";
 
 function DoctorModel(props) {
   return (
-    <div className="container grid ">
+    <div className="container-grid ">
       <div
         className="Total-content"
         style={{
@@ -20,15 +20,15 @@ function DoctorModel(props) {
         </div>
 
         <div className="Desc-file">
-          <h2>
+          <h2 className="h2_class">
             <span className="layout" role="img">
               {props.name}
             </span>
           </h2>
-          <h3 class="depart">{props.department}</h3>
-          <h3>{props.qualification}</h3>
-          <h3>{props.experience}</h3>
-          <h3>{props.description}</h3>
+          <h3 className="depart h3_class">{props.department}</h3>
+          <h3 className="h3_class">{props.qualification}</h3>
+          <h3 className="h3_class">{props.experience}</h3>
+          <h3 className="h3_class">{props.description}</h3>
         </div>
       </div>
     </div>
